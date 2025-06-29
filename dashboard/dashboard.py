@@ -411,37 +411,45 @@ st.markdown("")
 st.markdown("""
 ### 🧾 Kesimpulan Analisis
 
-#### 📌 **Conclusion Pertanyaan 1**  
-**Bagaimana perubahan tren bulanan konsentrasi PM2.5 di berbagai stasiun pada tahun 2013–2017?**
+# 📌 Kesimpulan dan Rekomendasi
 
-1. Tiap stasiun menunjukkan tren bulanan PM2.5 yang mirip selama periode 2013–2017:
-   - **2013**: Lonjakan pada Maret dan Juni, penurunan pada Juli–September.  
-   - **2014**: Penurunan dibanding 2013, dengan lonjakan kecil di Februari.  
-   - **2015**: Lonjakan ekstrem di Desember (>160 μg/m³), menjadi puncak tertinggi.  
-   - **2016**: Tren menurun namun tetap ada lonjakan di akhir tahun.  
-   - **2017**: Data hanya Januari–Februari, tetap menunjukkan kadar tinggi.
+**Conclution pertanyaan 1**
 
-2. Stasiun dengan **rata-rata PM2.5 tertinggi**: **Dongsi**, **Nongzhanguan**, **Wanshouxigong**  
-   Stasiun dengan **rata-rata PM2.5 terendah**: **Dingling**, **Huairou**, **Changping**
+Selama 2013–2017, hampir semua stasiun menunjukkan pola bulanan PM2.5 yang mirip.
 
----
+- Lonjakan paling tinggi tercatat di **Desember 2015** di stasiun **Dongsi**, dengan konsentrasi **lebih dari 160 μg/m³**. Kemungkinan disebabkan oleh musim dingin, di mana aktivitas pemanasan dan inversi suhu membuat polusi sulit menyebar.
+- Konsentrasi terendah terjadi pada **Juli–September 2013** di **Changping**, mendekati **30 μg/m³**, kemungkinan karena curah hujan dan angin musim panas yang membantu membersihkan udara.
+- Stasiun **Dongsi, Nongzhanguan, dan Wanshouxigong** mencatat rata-rata tertinggi karena berada di pusat kota yang padat aktivitas dan lalu lintas.
+- Stasiun **Huairou, Changping, dan Dingling** konsisten memiliki nilai terendah, karena letaknya di pinggiran kota dengan vegetasi dan sirkulasi udara lebih baik.
 
-#### 📌 **Conclusion Pertanyaan 2**  
-**Bagaimana hubungan antara PM2.5 dengan CO, NO₂, dan SO₂ di berbagai stasiun tahun 2013–2017, dan polutan mana yang paling berkorelasi?**
-
-
-1. **CO dan NO₂** menunjukkan korelasi yang paling kuat dan konsisten terhadap PM2.5.  
-2. **SO₂** memiliki hubungan paling lemah, dan korelasinya cenderung menurun dari tahun ke tahun.
+**Saran/Rekomendasi**
+- Pemerintah bisa fokuskan pengendalian emisi pada **bulan-bulan akhir tahun**, terutama di wilayah seperti Dongsi.
+- Stasiun dengan polusi tinggi seperti Dongsi sebaiknya jadi prioritas untuk monitoring intensif dan pembatasan kendaraan.
+- Jadikan area seperti Huairou dan Changping sebagai **contoh wilayah hijau** untuk dikembangkan lebih lanjut.
 
 ---
 
-#### 📌 **Conclusion Pertanyaan 3 (Analisis Lanjutan)**  
-**Bagaimana pola spasial konsentrasi PM2.5 berdasarkan musim di seluruh stasiun di Beijing?**
+**Conclution pertanyaan 2**
 
-Sebaran spasial musiman di seluruh stasiun menunjukkan bahwa:
-- ❄️ **Musim dingin dan semi** memiliki tingkat PM2.5 tertinggi, dengan sebagian besar stasiun pada kategori polusi tinggi.  
-- 🌤️ **Musim panas** menunjukkan kualitas udara terbaik, mayoritas stasiun berada pada kategori sedang hingga rendah.  
-- 🍂 **Musim gugur** berada di tengah, dengan banyak stasiun dalam kategori tinggi namun tidak separah musim dingin.
+- **NO₂** menunjukkan hubungan paling kuat terhadap PM2.5, dengan korelasi lebih dari 0.75 di beberapa tahun, kemungkinan karena keduanya berasal dari kendaraan bermotor dan aktivitas pembakaran.
+- **SO₂** punya korelasi paling lemah dan dan korelasinya terus menurun tiap tahun. Hal ini bisa jadi karena adanya perbaikan di sektor industri, seperti pengurangan penggunaan batu bara atau peningkatan efisiensi pembangkit.
+
+**Saran/Rekomemdasi:**
+- Prioritaskan pengendalian **NO₂**, misalnya dengan pengembangan transportasi publik dan kendaraan listrik.
+- Lanjutkan pengawasan pada **sektor industri** agar tren penurunan SO₂ tetap terjaga.
+
+---
+
+**Conclution pertanyaan 3**
+
+- **Musim dingin dan semi (Des–Mei)** memiliki kadar PM2.5 tertinggi, dengan banyak stasiun mencatat nilai di atas **150 μg/m³**. hal ini mungkin karena kondisi cuaca yang membuat polusi terjebak dan aktivitas pembakaran meningkat.
+- **Musim panas (Jun–Agu)** mencatat kualitas udara terbaik (sekitar **30–60 μg/m³**) karena dukungan hujan dan angin.
+- **Musim gugur (Sep–Nov)** berada di tengah, mulai menunjukkan peningkatan kadar polusi.
+
+**Saran/Rekomendasi:**
+- Tingkatkan **sosialisasi dan pengawasan saat musim dingin**, karena dampaknya tinggi terhadap kesehatan.
+- Gunakan musim panas untuk **aktivitas luar ruang** karena kualitas udara sedang bagus.
+- Jadikan musim gugur sebagai waktu untuk **persiapan menghadapi lonjakan musim dingin**, seperti memperkuat sistem peringatan dini.
 
 ---
 """)
