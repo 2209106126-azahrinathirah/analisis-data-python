@@ -262,21 +262,21 @@ musim_icons = {
 
 # Fungsi kategorisasi warna untuk folium
 def categorize_color(pm25):
-    if pm25 < 70:
+    if pm25 < 65:
         return 'green'
-    elif pm25 < 85:
+    elif pm25 < 75:
         return 'orange'
     else:
         return 'red'
 
 # Fungsi kategori teks
 def get_pm25_label(pm25):
-    if pm25 < 70:
+    if pm25 < 65:
+        return 'Rendah'
+    elif pm25 < 75:
         return 'Sedang'
-    elif pm25 < 85:
-        return 'Tinggi'
     else:
-        return 'Sangat Tinggi'
+        return 'Tinggi'
 
 # Pilih musim dari UI
 musim_terpilih = st.radio("Pilih Musim:", list(musim_icons.keys()), horizontal=True)
